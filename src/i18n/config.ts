@@ -9,8 +9,8 @@ export const langMap = {
   'pl': ['pl-PL'],
   'pt': ['pt-BR'],
   'ru': ['ru-RU'],
-  'zh': ['zh-CN'],
   'zh-tw': ['zh-TW'],
+  'zh': ['zh-CN'],
 } as const
 
 // Supported Languages
