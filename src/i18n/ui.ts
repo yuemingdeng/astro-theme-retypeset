@@ -11,6 +11,7 @@ interface Translation {
 }
 
 export const ui: Record<Language, Translation> = {
+  /**
   'de': {
     title: 'Neusatz',
     subtitle: 'Die Schönheit der Typografie wiederbeleben',
@@ -92,15 +93,6 @@ export const ui: Record<Language, Translation> = {
     about: 'О себе',
     toc: 'Оглавление',
   },
-  'zh': {
-    title: '重新编排',
-    subtitle: '再现版式之美',
-    description: 'Retypeset是一款基于Astro框架的静态博客主题，中文名为重新编排。本主题以活版印字为设计灵感，通过建立全新的视觉规范，对所有页面进行重新编排，打造纸质书页般的阅读体验，再现版式之美。所见皆为细节，方寸尽显优雅。',
-    posts: '文章',
-    tags: '标签',
-    about: '关于',
-    toc: '目录',
-  },
   'zh-tw': {
     title: '重新編排',
     subtitle: '再現版式之美',
@@ -110,4 +102,16 @@ export const ui: Record<Language, Translation> = {
     about: '關於',
     toc: '目錄',
   },
+   */
+
+  zh: {
+    title: '岳明灯',
+    subtitle: '记录、分析、学习',
+    description: 'Retypeset是一款基于Astro框架的静态博客主题，中文名为重新编排。本主题以活版印字为设计灵感，通过建立全新的视觉规范，对所有页面进行重新编排，打造纸质书页般的阅读体验，再现版式之美。所见皆为细节，方寸尽显优雅。',
+    posts: '文章',
+    tags: '标签',
+    about: '关于',
+    toc: '目录',
+  },
+
 }
